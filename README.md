@@ -42,7 +42,6 @@ root                    (project root folder)
 * # TODO: Add your names and emails here
 Jace Wilderman jwilderman@byui.edu
 Ethan Tolson - tol18009@byui.edu
+Stephen Nielsen - snielsen256@byui.edu
 Dawson Miskin - Miskindr13@gmail.com
-
-
 Austin Eldredge - eld20009@byui.edu
