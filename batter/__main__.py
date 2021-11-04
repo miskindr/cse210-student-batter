@@ -9,6 +9,7 @@ from game.handle_collisions_action import HandleCollisionsAction
 from game.move_actors_action import MoveActorsAction
 from game.input_service import InputService
 from game.output_service import OutputService
+from game.check_win_action import CheckWinAction
 from asciimatics.screen import Screen 
 
 def main(screen):
@@ -52,9 +53,10 @@ def main(screen):
     move_actors_action = MoveActorsAction()
     handle_collisions_acition = HandleCollisionsAction()
     draw_actors_action = DrawActorsAction(output_service)
+    check_win = CheckWinAction()
     
     script["input"] = [control_actors_action]
-    script["update"] = [move_actors_action, handle_collisions_acition]
+    script["update"] = [move_actors_action, handle_collisions_acition, check_win]
     script["output"] = [draw_actors_action]
 
     # start the game
