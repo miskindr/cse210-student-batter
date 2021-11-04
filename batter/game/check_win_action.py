@@ -9,7 +9,7 @@ class CheckWinAction(Action):
             Controller
         """
 
-    def exectue(self, cast):
+    def execute(self, cast):
         """Executes the action using the given actors.
 
         Args:
