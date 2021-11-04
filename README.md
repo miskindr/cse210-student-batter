@@ -40,4 +40,6 @@ root                    (project root folder)
 ## Authors
 ---
 * # TODO: Add your names and emails here
+Jace Wilderman jwilderman@byui.edu
 Ethan Tolson - tol18009@byui.edu
+
