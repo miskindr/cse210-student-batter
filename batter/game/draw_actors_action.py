@@ -1,5 +1,6 @@
 from game.action import Action
-from random import random
+import random
+random_color = random.randint(1,7)
 
 class DrawActorsAction(Action):
     """A code template for drawing actors. The responsibility of this class of
@@ -28,5 +29,5 @@ class DrawActorsAction(Action):
         """
         self._output_service.clear_screen()
         for group in cast.values():
-            self._output_service.draw_actors(group, random.randint(1,7))
+            self._output_service.draw_actors(group, random_color)
         self._output_service.flush_buffer()
