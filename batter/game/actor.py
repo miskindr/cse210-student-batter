@@ -9,7 +9,7 @@ class Actor:
         Information Holder
 
     Attributes:
-        _tag (string): The actor's tag.
+        _description (string): The actor's description.
         _text (string): The textual representation of the actor.
         _position (Point): The actor's position in 2d space.
         _velocity (Point): The actor's speed and direction.
